@@ -33,6 +33,11 @@ function Topbar() {
           <a class="nav-link" href="#">Studentform</a>
         </li>
         </Link>
+        <Link to={'/Student'}>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Student</a>
+        </li>
+        </Link>
         <Link to={'/hello'}>
         <li class="nav-item">
           <a class="nav-link" href="#">Hello</a>
